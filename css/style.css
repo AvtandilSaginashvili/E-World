@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #1E1E1E !important;
+}
+
+@font-face {
+    font-family: PP Pangram SansB;
+    src: url(../fonts/PangramB.otf);
+}
+
+@font-face {
+    font-family: PP Pangram Sans;
+    src: url(../fonts/PangramR.otf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);
+}
+
+
+
+/* Nav Bar */
+
+
+.a-world {
+    font-family: 'PP Pangram SansB' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 30.8px !important;
+    color: #fff !important;
+}
+
+.a-navitems {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    transition: all .3s !important;
+}
+
+.a-navitems:hover {
+    transform: rotate(15deg);
+    text-shadow: 2px 2px 0 #009DE2 !important;
+}
+
+
+
+/* Content */
+
+
+.h4-design {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.h1-3d {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 45px !important;
+    color: #fff !important;
+}
+
+.p1 {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.p-price {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 45px !important;
+    color: #FFDBB9 !important;
+}
+
+.star-icon {
+    color: #FEC84B !important;
+    font-size: 25px !important;
+    font-family: 'PP Pangram Sans' !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+}
+
+.star-icon input {
+    display: none !important;
+}
+
+.star-icon input + label {
+    cursor: pointer !important;
+    font-size: 40px !important;
+}
+
+.star-icon input:checked + label ~ label {
+    color: #fff !important;
+}
+
+.star-icon label:active {
+    transform: scale(0.8) !important;
+    transition: 0.3s ease !important;
+}
+
+.p2 {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.cartbutt {
+    width: 202px !important;
+    height: 48px !important;
+    border: 1px solid #474747 !important;
+    background-color: #CACACA !important;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+    border-radius: 8px !important;
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #000 !important;
+    padding-right: 60px !important;
+    margin-top: 20px !important;
+    outline: none !important;
+    transition: all .3s;
+}
+
+.cartbutt:hover {
+    transform: rotate(2deg);
+}
+
+.buybutt {
+    width: 202px !important;
+    height: 48px !important;
+    background-color: #0031DD;
+    border: 1px solid #36007A;
+    border-radius: 8px !important;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+    color: #fff !important;
+    outline: none !important;
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    transition: all .3s;
+}
+
+.buybutt:hover {
+    transform: rotate(-2deg);
+}
+
+.p3 {
+    font-family: 'PP Pangram Sans' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
